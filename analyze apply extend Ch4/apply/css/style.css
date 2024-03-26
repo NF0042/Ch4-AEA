@@ -1,0 +1,61 @@
+#image, #group {
+  padding: 2em;
+  
+}
+
+footer {
+  text-align: center;
+  font-size: 0.85em;
+  color: #47476b;
+  padding: 1% 0;
+  border-top: 3px solid #47476b;
+}
+
+body {
+  padding: 2%;
+  background-color: #d1d1e0;
+ 
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 3em;
+  font-family: Georgia, Times, serif;
+  color: #47476b;
+}
+
+nav {
+  background-color: #47476b;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
+
+  font-size: 1.5em;
+  font-family: Verdana, Arial, sans-serif;
+  font-weight: bold;
+  
+}
+
+nav a {
+  color: #e3eaf8;
+  padding: 0.5em 2em; 
+}
+
+main p {
+  font-size: 1.25em;
+}
+main h3 {
+  padding-top: 2%;
+  font-size: 2em;
+}
